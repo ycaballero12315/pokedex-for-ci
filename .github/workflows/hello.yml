@@ -1,4 +1,4 @@
-name: Say hello
+name: Hello actions
 
 on:
   push:
@@ -6,12 +6,9 @@ on:
       - main
 
 jobs:
-  hello_world:
-    runs-on: ubuntu-18.04
+  make_one:
+    runs-on: ubuntu-24.04
     steps:
-      - name: Echo the message
+      - name: echo de mensaje
         run: |
-          echo "Hola midu!"
-      - name: Dime la fecha
-        run: date
-      - run: ls -l
+          echo "Hello world!"
