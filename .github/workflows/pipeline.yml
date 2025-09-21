@@ -16,4 +16,4 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
       - name: Lint code
-        run: npm run eslist
+        run: npm run eslint
