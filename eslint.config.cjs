@@ -5,22 +5,20 @@ module.exports = [
   {
     languageOptions: {
       globals: {
-        // Node.js globals
+        // Node.js
         require: "readonly",
         module: "readonly",
         process: "readonly",
         __dirname: "readonly",
         console: "readonly",
-        // Jest globals
+
+        // Jest
         describe: "readonly",
         it: "readonly",
         expect: "readonly",
         test: "readonly",
         beforeEach: "readonly",
         afterEach: "readonly",
-        // Cypress globals
-        cy: "readonly",
-        Cypress: "readonly",
       },
     },
     rules: {
@@ -29,4 +27,3 @@ module.exports = [
     },
   },
 ];
-
