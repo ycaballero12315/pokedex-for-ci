@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps --no-audit --no-found --no-optional
       - name: Lint code
-        run: npm run lint
+        run: npm run eslint
       - name: Bluids
         run: npm run build
       - name: Run tests
